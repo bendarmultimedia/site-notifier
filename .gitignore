@@ -1,0 +1,6 @@
+composer.phar
+/vendor/
+.idea
+index.php
+/storage/last_notified.txt
+config.php

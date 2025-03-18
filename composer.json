@@ -1,0 +1,31 @@
+{
+    "name": "bendar/sitenotifier",
+    "description": "Notifier of site content",
+    "authors": [
+        {
+            "name": "Bendar Multimedia",
+            "email": "patryk@bendar.eu"
+        }
+    ],
+    "type": "project",
+    "keywords": ["notifier", "crawler", "checker"],
+    "minimum-stability": "dev",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.9",
+        "symfony/dom-crawler": "7.3.x-dev",
+        "symfony/css-selector": "7.3.x-dev",
+        "phpmailer/phpmailer": "dev-master",
+        "symfony/http-client": "7.3.x-dev"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
